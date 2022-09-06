@@ -1,0 +1,37 @@
+Download FilleZilla, lalu masukkan server seperti dibawah:
+------------------ftp account---------------
+FTP Details
+FTP Username:	epiz_30197372
+FTP Password:	RveRuroj2IHvZ
+FTP Hostname:	ftpupload.net
+FTP Port: (optional)	21
+
+langkah 2
+
+di Control Panel, cari dibagian Software Alter PHP Config
+lalu ON kan Direct Errors
+
+langkah 3
+cari phpmyadmin, lalu click here
+dan buat database sesuaikan dengan database di komputer kita.
+
+--------------DATABASE ACCOUNT---------------
+MySQL DB Name ▴		MySQL User Name		MySQL Password	MySQL 		Host Name		PHPMyAdmin
+epiz_30197372_phpdasar	epiz_30197372		(Your vPanel Password)		sql205.epizy.com	Admin
+
+Selanjutnya Edit file function.php(yag di upload tadi) di servernya
+
+kemudian masuk ke phpmyadmin(komputer kita) -> eksport -> metode (kustom) -> simpan hasil ke suatu berkas diceklis -> go/kirim.
+
+
+setelah itu, balik ke phpmyadmin servernya -> import -> choose file(phpdasar.sql) -> go/kirim
+refresh web kita
+
+selesai
+
+
+
+
+
+
+
